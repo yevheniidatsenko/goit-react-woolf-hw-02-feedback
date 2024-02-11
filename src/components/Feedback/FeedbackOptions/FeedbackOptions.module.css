@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  background-color: #f3f7fe;
+  color: #000000;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+
+  width: 100px;
+  height: 45px;
+  transition: 0.2s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #14422d;
+  box-shadow: 0 0 0 5px #cdf4dc5f;
+  color: #fff;
+  cursor: pointer;
+}
